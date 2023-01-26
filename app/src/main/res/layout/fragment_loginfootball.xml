@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginfootball">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_green_dark"
+        android:backgroundTint="@color/grren">
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="54dp"
+            android:layout_marginBottom="79dp"
+            android:backgroundTint="@color/grrenf"
+            android:text="login"
+            android:textColorHighlight="@color/grrenf"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/signu_ploginpae"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/forgotpas" />
+
+        <EditText
+            android:id="@+id/emaillogin"
+            android:layout_width="246dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="176dp"
+            android:ems="10"
+            android:hint="E-MAIL"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.527"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/passlogin"
+            android:layout_width="237dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="365dp"
+            android:layout_marginBottom="82dp"
+            android:ems="10"
+            android:hint="PASSWORD"
+            android:inputType="numberPassword"
+            android:textColor="@color/purple_700"
+            app:layout_constraintBottom_toTopOf="@+id/forgotpas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/forgotpas"
+            android:layout_width="152dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="63dp"
+            android:layout_marginBottom="67dp"
+            android:backgroundTint="@color/grren"
+            android:text="forgotpassword?"
+            android:textColor="@color/material_dynamic_primary0"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/login"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/passlogin" />
+
+        <Button
+            android:id="@+id/signu_ploginpae"
+            android:layout_width="131dp"
+            android:layout_height="59dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="79dp"
+            android:backgroundTint="@color/grrenf"
+            android:text="signup"
+            android:textColorHighlight="@color/grrenf"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/login" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grren"
+    android:backgroundTint="@color/grren"
+    tools:context=".detailsplayerActivity">
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="153dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="@color/grrenf"
+        android:onClick="finish"
+        android:text="save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/namedet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="63dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/EMAILdet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="3dp"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/namedet"
+        app:layout_constraintTop_toBottomOf="@+id/namedet" />
+
+    <EditText
+        android:id="@+id/birthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="birthday"
+        android:inputType="date"
+        app:layout_constraintStart_toStartOf="@+id/EMAILdet"
+        app:layout_constraintTop_toBottomOf="@+id/EMAILdet" />
+
+    <EditText
+        android:id="@+id/markaz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="1dp"
+        android:ems="10"
+        android:hint="markaz"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="@+id/birthday"
+        app:layout_constraintTop_toBottomOf="@+id/birthday" />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:hint="id"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/markaz"
+        app:layout_constraintTop_toBottomOf="@+id/markaz" />
+</androidx.constraintlayout.widget.ConstraintLayout>

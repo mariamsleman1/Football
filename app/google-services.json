@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "811353185000",
+    "project_id": "football-dd956",
+    "storage_bucket": "football-dd956.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811353185000:android:672d2106453928addc875d",
+        "android_client_info": {
+          "package_name": "com.example.football"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811353185000-on19vmle2iij08mprk10uurf1kp7eo84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ_l5SFVcZh9TYUuPR48LMFwBd-10GdZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811353185000-on19vmle2iij08mprk10uurf1kp7eo84.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
